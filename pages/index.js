@@ -51,7 +51,7 @@ export default function Home() {
         />
          <div className = "flex w-full mt-4 hover:shadow-lg max-w-md focus-within:shadow-lg border border-gray-200 rounded-full px-5 py-2 items-center sm:max-w-xl lg:max-w-2xl flex-grow">
           <SearchIcon className = 'h-5 mr-5 text-gray-500' />
-          <input ref = {searchInputRef} type = "text" className = " focus:outline-none flex-grow " />
+          <input ref = {searchInputRef} type = "text" className = " focus:outline-none flex-grow "  placeholder='Rahul Yadav'/>
           <MicrophoneIcon className = "h-8 fill-blue-500" />
          </div>
          <div className = "flex flex-col space-y-2 w-1/2 justify-center mt-5 sm:flex-row sm:space-x-4 sm:space-y-0">

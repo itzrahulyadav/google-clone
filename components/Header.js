@@ -34,7 +34,7 @@ function Header() {
               }}
         />
         <form className='flex flex-grow px-5 py-3 rounded-full shadow-lg border border-gray-200 max-w-3xl mr-5 items-center ml-5'>
-            <input type = "text" ref = {inputSearchRef} 
+            <input type = "text" ref = {inputSearchRef}  placeholder = "Rahul"
             className ="flex-grow w-full outline-none"
             />
             <XIcon  className='h-7 text-gray-500 mr-3 cursor-pointer transition-duration-100 transform hover:scale-125'
